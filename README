@@ -1,3 +1,12 @@
 == Fuzzy ==
 
 This is a Rand-r TCP fuzzer experimental program, you can get the code from the cpp file
+
+How it works:
+
+The program takes a random binery junk from the random virtual device 
+(/dev/random/) and shoot it to a remote TCP listiner port 
+
+Does it work better then regular string based fuzzer ?:
+
+No clue, thats the experiment :)
