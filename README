@@ -10,3 +10,19 @@ The program takes a random binery junk from the random virtual device
 Does it work better then regular string based fuzzer ?:
 
 No clue, thats the experiment :)
+
+How to compile:
+
+"clang++ Fuzzertest.cpp -o fuzzy"
+
+or 
+
+"g++ Fuzzertest.cpp -o fuzzy"
+
+How to use:
+
+./fuzzy ip port
+
+example:
+
+./fuzzy google.com 80
