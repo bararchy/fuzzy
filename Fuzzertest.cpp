@@ -18,7 +18,7 @@ int main( int argc, char *argv[] )
 
 	// Vars
 	 string manu;
-	 manu = "usage: randfuzz server port \n example: ./randfuzz google.com 80 \n";
+	 manu = "usage: fuzzy server port \n example: ./fuzzy google.com 80 \n";
 	// End of Vars
 	 
 	  if ( argc != 3 )
